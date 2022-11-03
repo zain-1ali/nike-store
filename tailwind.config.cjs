@@ -1,0 +1,19 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {},
+    screens : {
+      'xlg' : {'max': '1200px'},
+      'lg' : {'max': '991px'},
+      'md' : {'max': '767px'},
+      'sm' : {'max': '551px'},
+      'xsm' : {'max': '375px'}
+      
+    }
+  },
+  plugins: [],
+}
